@@ -1,0 +1,254 @@
+body, html, footer {
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:300;
+  line-height:1.4em;
+  color:#666;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 165px;
+  width: 100%;
+  background-color: #111;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #111;
+  font-family: "Open Sans", sans-serif;
+  color: #68228b
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto 0 40px;
+}
+
+.header-left {
+  float: left;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.header-left a {
+  color: #68228b;
+  padding-left: 9px;
+}
+
+.header-left a:hover {
+  color: #fff;
+  border-left: 4px solid #68228b;
+}
+
+.main-header {
+  margin: 50px 200px 0 0; 
+  padding: auto; 
+  display: flex; 
+  height: 30px; 
+  align-items: center;
+  justify-content: center;
+}
+
+.main-header a {
+  padding: 10px 10px; 
+  display: inline-block; 
+  color: #68228b; 
+  text-transform: uppercase; 
+  font-size: 48px; 
+  overflow: hidden;
+}
+
+.main-header a:hover { 
+  color: #fff; 
+  background: #68228b; 
+  box-shadow: 0 0 50px #68228b;
+} 
+
+.header-right {
+  float: right;
+  margin-top: 5px;
+  margin-right: -35px;
+  font-size: 21px;
+}
+
+.header-right a {
+  line-height: 25px;
+  padding: 0 5px;
+  color: #68228b;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4 {
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+.pimg1 {
+  background-image:url('../proyektim/IMG/img1.jpg');
+  min-height:100%;
+  opacity: 0.8;
+}
+
+.pimg2, .pimg3, .pimg4 {
+  background-image:url('../proyektim/IMG/img3.jpg');
+  min-height:300px;
+  opacity: 0.6;
+}
+
+.section {
+  text-align:center;
+  padding:30px 60px;
+}
+
+.section-bright {
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark {
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext {
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:24px;
+  letter-spacing:10px;
+  text-transform:uppercase;
+}
+
+.ptext .border {
+  background-color:#111;
+  color:#68228b;
+  padding:20px;
+}
+
+.ptext .border.trans {
+  background-color:inherit;
+  color: #111;
+  letter-spacing:4px;
+  font-weight: bold;
+}
+
+.team-info img {
+  padding-top: 3px;
+  background-color: #111;
+  width: 10%; 
+}
+
+@media(max-width:670px) {
+  .pimg1, .pimg2, .pimg3, .pimg4 {
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  }
+}
+
+.contact {
+  text-align: center;
+  margin-bottom: 70px;
+ }
+
+ .contact h2 {
+  padding-bottom: 70px;
+ }
+ 
+ .contact-form {
+  margin-top: 10px;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0px 10px 1px rgba(104, 34, 139, 0.7);
+  border: solid transparent;
+  text-align: center;
+ }
+ 
+ .data-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 50px;
+ }
+ 
+ .data-input:nth-child(4) {
+  align-items: start;
+ }
+ 
+.data-input label {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+ }
+ 
+.data-input input,
+.data-input textarea {
+  width: 60%;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  border: 1px solid #111;
+  box-shadow: 0 0px 10px 1px rgba(104, 34, 139, 0.7);
+  border-radius: 4px;
+  color: #111;
+  transition: 300ms;
+ }
+ 
+.data-input input:hover,
+.data-input textarea:hover {
+  box-shadow: 0 0px 10px 1px rgba(104, 34, 139, 0.7);
+ }
+ 
+.submit {
+  display: inline-block;
+  margin: 0 auto 30px;
+  width: 20%;
+  box-shadow: 0 0px 10px 1px rgba(104, 34, 139, 0.7);
+  border-radius: 5px;
+  transition: 300ms;
+  text-align: center;
+  padding: 10px 0 10px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+ }
+ 
+.submit:hover {
+  box-shadow: 0 0px 10px 1px rgba(104, 34, 139, 0.7);
+ }
+ 
+.submit:active {
+  transition: 300ms;
+  box-shadow: 0 0 5px 1px rgba(136, 136, 136, 0.8);
