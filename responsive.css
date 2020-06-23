@@ -22,6 +22,11 @@
 	width: 25%;
  }
 
+ .pimg1, .pimg2, .pimg3, .pimg4 {
+  background-position:center;
+  background-size:cover;  
+  }
+
  .contact {
   	padding: 0 0;
   }
@@ -34,12 +39,7 @@
   .data-input #comment {
   	height: 150px;
   }
-
-  footer .container {
-  	width: 700px;
-  	text-align: right; 	
-  }
-
+  
 }
 
 @media(max-width:670px) {
