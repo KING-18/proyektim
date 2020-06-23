@@ -1,0 +1,115 @@
+@media (max-width: 1000px) {
+ .header-left {
+	width: 10%;
+	font-size: 14px;
+ }
+
+ .header-left a {
+	padding-bottom: 10px;
+	display: block;
+ }
+
+ .main-header {
+	width: 555px;
+	margin-right: auto;
+ }
+
+ .main-header h1 a {
+	font-size: 38px;
+ }
+
+ .header-right {
+	width: 25%;
+ }
+
+ .contact {
+  	padding: 0 0;
+  }
+
+  .contact-form {
+  	width: 100%;
+  	margin: 0 0;
+  }
+
+  .data-input #comment {
+  	height: 150px;
+  }
+
+  footer .container {
+  	width: 700px;
+  	text-align: right; 	
+  }
+
+}
+
+@media(max-width:670px) {
+  header {
+  	height: 140px;
+  }
+
+  header .container {
+  	padding-bottom: 20px;
+  	margin-bottom: 20px;
+  	height: 80px;
+  }
+
+  .header-left a{
+  	font-size: 13px;
+  }
+
+  .main-header {
+  	width: 450px;
+  }
+
+  .main-header h1 a {
+  	font-size: 26px;
+  }
+
+  .header-right a {
+  	font-size: 13px;
+  }
+
+  .ptext {
+  	padding-top: 20px;
+  	font-size: 18px;  
+  }
+
+  .ptext .border.trans {
+  	color: #fff;
+  }
+
+
+  .pimg1, .pimg2, .pimg3, .pimg4 {
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  }
+
+  .contact {
+  	padding: 0 0;
+  }
+
+  .contact-form {
+  	width: 100%;
+  	margin: 0 0;
+  }
+
+  .data-input #comment {
+  	height: 100px;
+  }
+
+  footer .container {
+  	width: 100%;
+  	text-align: center;
+  	margin: auto 0;  	
+  }
+
+  .team-info p {
+  	margin-top: 0;
+  	padding: 0 auto;
+  	font-size: 12px;
+  }
+
+}
