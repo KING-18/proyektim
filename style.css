@@ -43,6 +43,7 @@ footer {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 2px;
+  padding-right: 5px;
 }
 
 .header-left a {
@@ -57,7 +58,6 @@ footer {
 
 .main-header {
   margin: 50px 200px 0 0; 
-  padding: auto; 
   display: flex; 
   height: 30px; 
   align-items: center;
@@ -163,16 +163,6 @@ footer {
   padding-top: 3px;
   background-color: #111;
   width: 10%; 
-}
-
-@media(max-width:670px) {
-  .pimg1, .pimg2, .pimg3, .pimg4 {
-  position:relative;
-  background-position:center;
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-attachment:scroll;
-  }
 }
 
 .contact {
